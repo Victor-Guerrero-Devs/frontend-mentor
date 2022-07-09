@@ -52,3 +52,14 @@ main {
 .card-content {
   padding: 1rem;
 }
+
+.sub-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sub-title,
+.card-text {
+  font-family: Montserrat;
+  color: var(--neutral-gray-blue);
+}
