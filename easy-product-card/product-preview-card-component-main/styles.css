@@ -22,4 +22,33 @@ main {
   height: 100vh;
   width: 100vw;
   background-color: var(--primary-cream);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 600px;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: var(--neutral-white);
+}
+
+.card__img__container {
+  background-image: url(images/image-product-mobile.jpg);
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
 }
