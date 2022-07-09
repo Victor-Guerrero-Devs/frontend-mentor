@@ -53,13 +53,20 @@ main {
   padding: 1rem;
 }
 
-.sub-title {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
 .sub-title,
 .card-text {
   font-family: Montserrat;
   color: var(--neutral-gray-blue);
+  font-size: 15px;
+}
+
+.sub-title {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
+
+.title {
+  font-family: Fraunces;
+  color: var(--neutral-dark-blue);
+  font-size: 30px;
 }
