@@ -17,26 +17,26 @@
   &__heading {
     font-size: 4rem;
     line-height: 1;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   &__text {
     font-size: 1.5rem;
     line-height: 1.5;
     color: $dark-gray-blue;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   &__btn {
     font-size: 1.5rem;
     border-radius: 3px;
-    width: 18rem;
+    width: 16rem;
     background-color: $soft-red;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     color: $off-white;
-    padding: 1rem 0.5rem;
+    padding: 1.2rem 0.5rem;
     border: none;
     cursor: pointer;
 

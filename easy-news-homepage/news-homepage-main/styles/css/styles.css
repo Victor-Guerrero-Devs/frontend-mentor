@@ -163,24 +163,24 @@ p {
 .head-article__heading {
   font-size: 4rem;
   line-height: 1;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .head-article__text {
   font-size: 1.5rem;
   line-height: 1.5;
   color: hsl(236deg, 13%, 42%);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .head-article__btn {
   font-size: 1.5rem;
   border-radius: 3px;
-  width: 18rem;
+  width: 16rem;
   background-color: hsl(5deg, 85%, 63%);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: hsl(36deg, 100%, 99%);
-  padding: 1rem 0.5rem;
+  padding: 1.2rem 0.5rem;
   border: none;
   cursor: pointer;
 }
