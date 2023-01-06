@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 .nav {
   width: 100%;
@@ -41,12 +41,12 @@
     font-weight: 500;
     padding: 0 5.5rem;
 
-    &--highlight {
-      color: $green-500;
-    }
-
     &:last-of-type {
       padding-right: 0;
+    }
+
+    &:hover {
+      color: $orange;
     }
   }
 

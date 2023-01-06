@@ -78,11 +78,11 @@ p {
   font-weight: 500;
   padding: 0 5.5rem;
 }
-.nav__link--highlight {
-  color: #10b981;
-}
 .nav__link:last-of-type {
   padding-right: 0;
+}
+.nav__link:hover {
+  color: orange;
 }
 .nav .burger-icon {
   cursor: pointer;
@@ -159,6 +159,34 @@ p {
 }
 .head-article__image {
   width: 100%;
+}
+.head-article__heading {
+  font-size: 4rem;
+  line-height: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.head-article__text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: hsl(236deg, 13%, 42%);
+  margin-bottom: 1rem;
+}
+.head-article__btn {
+  font-size: 1.5rem;
+  border-radius: 3px;
+  width: 18rem;
+  background-color: hsl(5deg, 85%, 63%);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: hsl(36deg, 100%, 99%);
+  padding: 1rem 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.head-article__btn:hover {
+  background-color: hsl(240deg, 100%, 5%);
+  color: hsl(36deg, 100%, 99%);
 }
 
 /*# sourceMappingURL=styles.css.map */

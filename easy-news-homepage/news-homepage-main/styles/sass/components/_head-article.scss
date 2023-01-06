@@ -1,4 +1,4 @@
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 .head-article {
   width: 100%;
@@ -12,5 +12,37 @@
 
   &__image {
     width: 100%;
+  }
+
+  &__heading {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: $dark-gray-blue;
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    font-size: 1.5rem;
+    border-radius: 3px;
+    width: 18rem;
+    background-color: $soft-red;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: $off-white;
+    padding: 1rem 0.5rem;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $very-dark-blue;
+      color: $off-white;
+    }
   }
 }
