@@ -1,0 +1,43 @@
+@use '../abstracts' as *;
+
+.new-articles {
+  width: 100%;
+  padding: 0 $gutter;
+  margin-top: 6rem;
+
+  &__wrapper {
+    width: 100%;
+    padding: 2rem 3rem;
+    background-color: $very-dark-blue;
+  }
+
+  &__header {
+    color: $soft-orange;
+    font-size: 2.4rem;
+  }
+
+  &__list {
+    padding-top: 1.5rem;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  & .border {
+    padding-top: 2rem;
+    border-bottom: 1px solid $dark-gray-blue;
+  }
+
+  &__item-header {
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    color: $off-white;
+  }
+
+  &__item-body {
+    padding-top: 1rem;
+    color: $gray-blue;
+    font-size: 1.5rem;
+  }
+}

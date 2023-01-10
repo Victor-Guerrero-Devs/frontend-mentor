@@ -1,12 +1,13 @@
 // import base modules
-@use "base/typography";
-@use "base/reset";
+@use 'base/typography';
+@use 'base/reset';
 
 // import abstract modules
-@use "abstracts/colors";
-@use "abstracts/mixins";
+@use 'abstracts/colors';
+@use 'abstracts/mixins';
 
 // import component modules
-@use "components/nav";
-@use "components/side-drawer";
-@use "components/head-article";
+@use 'components/nav';
+@use 'components/side-drawer';
+@use 'components/head-article';
+@use 'components/new-articles';
